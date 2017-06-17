@@ -1,0 +1,84 @@
+header {
+  margin: 1vw 2vw;
+}
+header{
+
+  display: flex;
+  justify-content: space-between;
+}
+header p {
+  display: inline;
+  color: red;
+
+}
+#backbutton{
+ //max-width: 100%;
+ //padding: 3vh;
+}
+.shoes {
+  color: white;
+  background: linear-gradient(to right, purple, orangered);
+  display: flex;
+  justify-content: space-around;
+
+}
+.box {
+ display: grid;
+ grid-column: 1fr;
+
+}
+.logo{
+  height: 2vw;
+  width: auto;
+}
+.cart{
+  height: 1vw;
+  width: auto;
+}
+
+.price {
+  display: inline;
+}
+#buy {
+  background-color: white;
+  border-radius: 25px;
+  color: orangered;
+  padding: 25px;
+  max-width: 125px;
+}
+.season{
+  color: darkred;
+}
+#description {
+  display: inline;
+  border-top: 2px dashed darkred;
+  border-bottom: 2px dashed darkred;
+  padding: 2vh;
+}
+#reviews {
+  color: darkred;
+  display: inline;
+}
+#recomended {
+  text-align: center;
+  background-color:  lightsalmon;
+  height: 4vh;
+}
+#details {
+  margin: 2vh 20vw;
+  padding: 1vh;
+}
+
+section div a{
+  color: orangered;
+}
+
+footer p{
+  display: inline;
+}
+footer a {
+  color: black;
+}
+footer div {
+  color: orangered;
+}
